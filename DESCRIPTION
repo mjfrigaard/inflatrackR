@@ -1,0 +1,32 @@
+Package: inflatrackR
+Type: Package
+Title: Receipt Tracking and Price Monitoring
+Version: 0.1.0
+Authors@R: person(
+    "Martin", "Frigaard",
+    role = c("aut", "cre"),
+    email = "mjfrigaard@pm.me",
+    comment = NULL
+  )
+Description: Track and analyze prices from receipts over time using image processing and LLM technology.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports:
+    shiny,
+    bslib,
+    DT,
+    ggplot2,
+    RSQLite,
+    DBI,
+    base64enc,
+    httr2,
+    rappdirs
+Suggests:
+    testthat,
+    knitr,
+    rmarkdown
+Depends: 
+    R (>= 3.5)
+LazyData: true
